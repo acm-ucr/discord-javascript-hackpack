@@ -7,18 +7,18 @@
 
 ## Node.js
 
-Discord Javascript runs on Node.js Version 20.10.0 and higher. Please ensure you have Node.js installed via the [official website](https://nodejs.org/en).
+Discord Javascript Hackpack runs on Node.js Version 20.10.0 and higher. Please ensure you have Node.js installed via the [official website](https://nodejs.org/en).
 
-## Node.js
+## Discord.js
 
-This project is built using [Node.js](https://nodejs.org/en), a Javascript run-time environment.
+[Discord.js](https://discord.js.org/) is a Node.js module allowing easy interactions with the Discord API.
 
 ## Environment Variables
 
 The following environment variables are required and must be stored in an `.env` file:
 
 ```env
-N/A
+DISCORD_TOKEN=
 ```
 
 ## Commands
@@ -34,6 +34,12 @@ npm i <dependency>
 
 # Remove dependency
 npm un <dependency>
+```
+
+### Running the Bot Locally
+
+```bash
+npm run bot
 ```
 
 ### Formatting Code via Prettier
