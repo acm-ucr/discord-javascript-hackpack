@@ -1,21 +1,17 @@
 {
   "name": "discord-javascript-hackpack",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "prepare": "husky install",
-    "eslint": "npx eslint . --ext js --ext jsx",
+    "eslint": "npx eslint .",
     "format": "npx prettier --write .",
     "check": "npx prettier --check ."
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "devDependencies": {
+    "@eslint/js": "^9.6.0",
     "eslint": "^9.6.0",
-    "eslint-config-prettier": "^9.1.0",
+    "globals": "^15.8.0",
     "husky": "^9.0.11",
     "prettier": "^3.3.2"
   }
