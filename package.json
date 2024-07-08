@@ -2,6 +2,7 @@
   "name": "discord-javascript-hackpack",
   "version": "1.0.0",
   "private": true,
+  "type": "module",
   "scripts": {
     "prepare": "husky install",
     "eslint": "npx eslint .",
